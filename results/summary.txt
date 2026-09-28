@@ -1,0 +1,16 @@
+Meetings analysed: 190  (2003-12-09 to 2026-09-16)
+
+SAME-DAY reaction (does the market agree with the AI score?)
+  Pearson correlation (score change vs USD move): +0.059  (p-value 0.415)
+  Spearman rank correlation:                      +0.101  (p-value 0.164)
+  Direction hit-rate (50% = coin flip):           54.4%
+
+NEXT-5-DAY drift (could you have traded on it?)
+  Pearson correlation (score change vs USD move): +0.100  (p-value 0.170)
+  Spearman rank correlation:                      +0.070  (p-value 0.340)
+  Direction hit-rate (50% = coin flip):           53.6%
+
+SIMPLE RULE: long USD if tone more hawkish, short USD if more dovish, hold 5 trading days
+  Trades: 125 (~5.5 per year) | avg return per trade: 0.177% | win rate: 53.6%
+  Annualised Sharpe (approx): 0.33 | t-stat of avg return: 1.58 (p-value 0.117; below 0.05 = statistically significant)
+  Cumulative return: 23.5% over 22.8 years
